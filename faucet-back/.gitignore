@@ -1,0 +1,9 @@
+__debug_bin
+.DS_Store
+*.log
+*.out
+*.toml
+*.db
+faucet-app
+
+/public

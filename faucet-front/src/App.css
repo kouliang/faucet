@@ -1,0 +1,46 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*###### component-address #####*/
+.input {
+  border: 1px solid #000; /* 添加边框 */
+  border-radius: 5px; /* 添加圆角 */
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*###### component-clain #####*/
+.claim-component {
+  display: flex;
+  border: 1px solid #000; /* 添加边框 */
+  border-radius: 5px; /* 添加圆角 */
+  margin-bottom: 20px;
+  padding: 20px;
+  /* 其他样式 */
+}
+
+/*###### component-link #####*/
+.link {
+  text-decoration: underline;
+  color: #8a2be2;
+}
+.link-separator {
+  margin: 0 10px; /* 设置链接之间的间距 */
+  display: inline-block;
+  width: 10px;
+}
